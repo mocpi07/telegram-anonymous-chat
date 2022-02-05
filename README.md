@@ -24,7 +24,7 @@
 </P>
 </P>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/mocpi07/telegram-anonymous-chat)
+https://heroku.com/deploy?template=https://github.com/mocpi07/telegram-anonymous-chat
 
 
 </br>
