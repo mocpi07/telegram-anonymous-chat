@@ -1,4 +1,3 @@
-import amanobot
 import amanobot.namedtuple
 from amanobot.namedtuple import File, InlineKeyboardMarkup, InlineKeyboardButton
 from amanobot.namedtuple import ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton, ForceReply
