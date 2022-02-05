@@ -1,11 +1,54 @@
 {
-  "name": "telegram-anonymous-chat",
-  "description": "bot anonymous chat telegram",
-  "repository": "https://github.com/Rianfirnanda/telegram-anonymous-chat",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": [
-    "bot",
-    "telegram",
-    "tele-bot"
-  ]
+  "name": "CariBucinbot",
+  "description": "Bot anonymous chat telegram.",
+  "repository": "https://github.com/mocpi07/CaribucinOnline",
+  "logo": "https://telegra.ph//file/b263d1cfdc81958a4d7a5.jpg",
+  "keywords": ["CaribucinOnline", "telegram", "python"],
+  "env": {
+    "ADMIN": {
+      "description": "Isi dengan id admin",
+      "value": "@xycye"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Dapatkan di @botfather",
+      "value": ""
+    },
+    "OWNER": {
+      "description": "Isi dengan username kalian tanpa tanda @",
+      "value": "xycye"
+    },
+    "INSTAGRAM": {
+      "description": "Isi nama instagram kalian dengan contoh (_mocpi)",
+      "value": "_mocpi"
+    },
+    "DONASI": {
+      "description": "Isi link donasi kalian tanpa tanpa harus 'https://' Contoh (saweria.co/DonasiDeveloper)",
+      "required": false,
+      "value": "saweria.co/DonasiDeveloper"
+    },
+    "GROUP_SUPPORT": {
+      "description": "Bikin Sebuah Group Support Untuk Chat Tanpa Harus Menggunakan @ (kalo gak di rubah gapapa)",
+      "required": false,
+      "value": "GabutIsUsOfficial"
+    },
+    "GROUP_CHAT": {
+      "description": "Isi dengan username group kalian tanpa tanda @ (kalo gak di rubah gapapa)",
+      "required": false,
+      "value": "GabutIsUsOfficial"
+    },
+    "PROJECT_NAME": {
+      "description": "Isi dengan nama project bot kalian",
+      "required": false,
+      "value": "CariBucinbot"
+    },
+    "CHANNEL": {
+      "description": "Isi dengan username channel kalian tanpa tanda @ (kalo gak di rubah gapapa)",
+      "required": false,
+      "value": "Userbot7STAR"
+    }
+  }
 }
